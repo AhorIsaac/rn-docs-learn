@@ -6,12 +6,14 @@ import {
   Cat,
   Cafe as CApp,
   FlatListComponent,
+  SectionListBasics,
+  ScrollViewComponent
 } from "./components/function";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FlatListComponent />
+      <ScrollViewComponent />
       <StatusBar style="auto" />
     </View>
   );
