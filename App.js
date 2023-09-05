@@ -7,13 +7,15 @@ import {
   Cafe as CApp,
   FlatListComponent,
   SectionListBasics,
-  ScrollViewComponent
+  ScrollViewComponent,
+  PizzaTranslator,
+  FunctionalNetwork
 } from "./components/function";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ScrollViewComponent />
+      <FunctionalNetwork />
       <StatusBar style="auto" />
     </View>
   );
