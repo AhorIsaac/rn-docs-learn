@@ -3,6 +3,7 @@ import FlexDirectionBasics from "./FlexDirection";
 import FlexWrapLayout from "./FlexWrap";
 import JustifyContentBasics from "./JustifyContent";
 import AlignItemsLayout from "./AlignItems";
+import AlignContentLayout from "./AlignContent";
 
 export {
   Flex,
@@ -10,4 +11,5 @@ export {
   FlexWrapLayout,
   JustifyContentBasics,
   AlignItemsLayout,
+  AlignContentLayout
 };
