@@ -5,6 +5,7 @@ import JustifyContentBasics from "./JustifyContent";
 import AlignItemsLayout from "./AlignItems";
 import AlignContentLayout from "./AlignContent";
 import AlignSelfLayout from "./AlignSelf";
+import DirectionLayout from "./LayoutDirection";
 
 export {
   Flex,
@@ -13,5 +14,6 @@ export {
   JustifyContentBasics,
   AlignItemsLayout,
   AlignContentLayout,
-  AlignSelfLayout
+  AlignSelfLayout,
+  DirectionLayout
 };

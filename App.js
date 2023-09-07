@@ -19,12 +19,13 @@ import {
   AlignItemsLayout,
   AlignContentLayout,
   AlignSelfLayout,
+  DirectionLayout
 } from "./components/design";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <AlignSelfLayout />
+      <DirectionLayout />
       <StatusBar style="auto" />
     </View>
   );
