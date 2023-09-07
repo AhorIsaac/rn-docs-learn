@@ -4,6 +4,7 @@ import FlexWrapLayout from "./FlexWrap";
 import JustifyContentBasics from "./JustifyContent";
 import AlignItemsLayout from "./AlignItems";
 import AlignContentLayout from "./AlignContent";
+import AlignSelfLayout from "./AlignSelf";
 
 export {
   Flex,
@@ -11,5 +12,6 @@ export {
   FlexWrapLayout,
   JustifyContentBasics,
   AlignItemsLayout,
-  AlignContentLayout
+  AlignContentLayout,
+  AlignSelfLayout
 };

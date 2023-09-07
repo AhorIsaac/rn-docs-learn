@@ -17,13 +17,14 @@ import {
   FlexWrapLayout,
   JustifyContentBasics,
   AlignItemsLayout,
-  AlignContentLayout
+  AlignContentLayout,
+  AlignSelfLayout,
 } from "./components/design";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <AlignContentLayout />
+      <AlignSelfLayout />
       <StatusBar style="auto" />
     </View>
   );
