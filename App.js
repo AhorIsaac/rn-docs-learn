@@ -11,12 +11,12 @@ import {
   PizzaTranslator,
   FunctionalNetwork,
 } from "./components/function";
-import { Flex, FlexDirectionBasics, FlexWrapLayout } from "./components/design";
+import { Flex, FlexDirectionBasics, FlexWrapLayout, JustifyContentBasics } from "./components/design";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FlexWrapLayout />
+      <JustifyContentBasics />
       <StatusBar style="auto" />
     </View>
   );
