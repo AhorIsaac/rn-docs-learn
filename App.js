@@ -9,14 +9,14 @@ import {
   SectionListBasics,
   ScrollViewComponent,
   PizzaTranslator,
-  FunctionalNetwork
+  FunctionalNetwork,
 } from "./components/function";
-import { Flex, FlexDirectionBasics } from "./components/design";
+import { Flex, FlexDirectionBasics, FlexWrapLayout } from "./components/design";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FlexDirectionBasics />
+      <FlexWrapLayout />
       <StatusBar style="auto" />
     </View>
   );
